@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/1-ordinateur.png" alt="ClipKlap sur ordinateur : champ pour coller un lien, réglages du nombre de shorts, de la durée et du cadrage, suivi de la fabrication en direct" width="560"><br><b>Sur ordinateur</b></td>
-    <td align="center"><img src="screenshots/2-telephone.png" alt="ClipKlap sur un écran étroit : les mêmes réglages les uns sous les autres" width="200"><br><b>Sur écran étroit</b></td>
+    <td align="center"><img src="screenshots/1-ordinateur.png" alt="ClipKlap sur ordinateur : champ pour coller un lien, réglages du nombre de shorts, de la durée et du cadrage" width="560"><br><b>Sur ordinateur</b></td>
+    <td align="center"><img src="screenshots/2-telephone.png" alt="ClipKlap sur un écran étroit : le bouton Générer passe sous le lien, les réglages les uns sous les autres" width="200"><br><b>Sur écran étroit</b></td>
   </tr>
 </table>
 
@@ -23,7 +23,7 @@
 
 1. **Colle un lien** : une vidéo YouTube, une VOD ou un clip Twitch.
 2. **Choisis** : plusieurs shorts tirés d'une longue vidéo, ou un seul passage (ex. `1:23-1:50`) ; le nombre de shorts ; la durée (20-60 s pour les Shorts, 61-90 s pour TikTok) ; le cadrage ; les sous-titres et le titre d'accroche.
-3. **Clique sur Générer** : tu suis la fabrication en direct, puis tes shorts apparaissent dans la galerie, classés par % de buzz, à regarder, télécharger ou ouvrir dans leur dossier.
+3. **Clique sur Générer** : une barre montre où en est la fabrication, puis tes shorts apparaissent dans la galerie, regroupés par vidéo et triés par % de buzz ou par date, à regarder, télécharger ou ouvrir dans leur dossier.
 
 ---
 
