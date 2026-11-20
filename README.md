@@ -58,11 +58,22 @@ Fonctionne sur **Windows** avec Python 3.12.
 
 ---
 
+## 💻 Installer sur un autre PC (Windows 10 ou 11)
+
+1. Copie le dossier ClipKlap sur le PC (sans `shorts`, `sorties`, `bruts` ni `outils` : ils se recréent tout seuls).
+2. Double-clique sur **`Installer.bat`** : il installe Python 3.12 si besoin, les bibliothèques, et met un raccourci **ClipKlap** sur le Bureau.
+3. Double-clique sur le raccourci : l'appli s'ouvre. Chaque PC crée sa propre clé secrète pour l'accès par téléphone.
+
+## ✏️ Éditeur et programmation
+
+- Bouton **Modifier** sur chaque short : corriger l'accroche et les sous-titres, changer le cadrage, puis refaire le short en quelques secondes (sans nouvelle transcription)
+- Utilisable aussi **depuis le téléphone** sur la Wi-Fi de la maison (adresse protégée par une clé secrète)
+- Envoi sur YouTube **programmé** : un short par jour à 18 h, du meilleur % au moins bon
+
 ## 📌 À venir
 
-- Éditeur : corriger le texte des sous-titres et l'accroche avant d'exporter
-- Publication programmée aux meilleures heures
 - Accroches écrites par une IA
+- Découpe « par sujet » avec une IA
 
 ---
 
