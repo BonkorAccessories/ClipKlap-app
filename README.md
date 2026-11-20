@@ -1,46 +1,60 @@
 # ✂️ ClipKlap — Tes longues vidéos en shorts prêts à poster
 
-**ClipKlap** transforme une vidéo YouTube ou Twitch en **shorts verticaux** pour TikTok, YouTube Shorts et Reels. Colle un lien, clique sur Générer : l'appli trouve les meilleurs moments, les coupe aux fins de phrases, ajoute des **sous-titres animés** et un **titre d'accroche**, et note chaque short avec son **% de chance de buzz**. Le cadrage se fait tout seul : deux présentateurs sont mis l'un au-dessus de l'autre, un streamer ou un journaliste passe en haut et son contenu en bas. Tout tourne sur ton ordinateur : gratuit, sans compte, et tes vidéos ne partent nulle part.
+**ClipKlap** transforme une vidéo YouTube ou Twitch en **shorts verticaux** pour TikTok, YouTube Shorts et Reels.
+Tu colles un lien, tu cliques sur **Générer**, et tu récupères des shorts sous-titrés, bien cadrés et notés en % de chance de buzz.
+
+Gratuit, sans compte, et tout se passe sur ton PC : tes vidéos ne partent nulle part.
 
 🔗 **Présentation** : [https://clipklap.vercel.app](https://clipklap.vercel.app)
 
 ---
 
-## 👀 Aperçu de l'app
+## ⬇️ Télécharger et installer (Windows 10 ou 11)
+
+1. **[Télécharger ClipKlap.zip](https://github.com/BonkorAccessories/ClipKlap-app/releases/latest/download/ClipKlap.zip)**
+2. Clic droit sur le fichier → **Extraire tout**.
+3. Dans le dossier, double-clique sur **`Installer.bat`** (5 à 10 minutes la première fois).
+   > Si Windows affiche « Windows a protégé votre ordinateur » : clique sur **Informations complémentaires** puis **Exécuter quand même**. C'est normal pour un petit programme gratuit qui n'est pas signé.
+4. Un raccourci **ClipKlap** apparaît sur le Bureau : double-clique dessus, l'appli s'ouvre dans ton navigateur.
+
+Le premier short prend un peu plus de temps : l'outil de sous-titres (environ 500 Mo) se télécharge une seule fois.
+
+---
+
+## 👀 Aperçu
 
 <table>
   <tr>
     <td align="center"><img src="screenshots/1-ordinateur.png" alt="ClipKlap sur ordinateur : champ pour coller un lien, réglages du nombre de shorts, de la durée et du cadrage" width="560"><br><b>Sur ordinateur</b></td>
-    <td align="center"><img src="screenshots/2-telephone.png" alt="ClipKlap sur un écran étroit : le bouton Générer passe sous le lien, les réglages les uns sous les autres" width="200"><br><b>Sur écran étroit</b></td>
+    <td align="center"><img src="screenshots/2-telephone.png" alt="ClipKlap sur téléphone : le bouton Générer passe sous le lien, les réglages les uns sous les autres" width="200"><br><b>Sur téléphone</b></td>
   </tr>
 </table>
-
-*Captures réalisées avec une galerie vide.*
 
 ---
 
 ## 🚀 Comment ça marche
 
-1. **Colle un lien** : une vidéo YouTube, une VOD ou un clip Twitch.
-2. **Choisis** : plusieurs shorts tirés d'une longue vidéo, ou un seul passage (ex. `1:23-1:50`) ; le nombre de shorts ; la durée (20-60 s pour les Shorts, 61-90 s pour TikTok) ; le cadrage ; les sous-titres et le titre d'accroche.
-3. **Clique sur Générer** : une barre montre où en est la fabrication, puis tes shorts apparaissent dans la galerie, regroupés par vidéo et triés par % de buzz ou par date, à regarder, télécharger ou ouvrir dans leur dossier.
+1. **Colle un lien** : vidéo YouTube, VOD ou clip Twitch.
+2. **Choisis** : plusieurs shorts, ou un seul passage (ex. `1:23-1:50`), la durée (20-60 s pour les Shorts, 61-90 s pour TikTok) et le cadrage.
+3. **Clique sur Générer** : tes shorts arrivent dans la galerie, du meilleur % au moins bon.
+4. **Corrige si besoin** avec le bouton **Modifier**, puis télécharge et poste.
 
 ---
 
-## ✨ Fonctionnalités principales
+## ✨ Ce que fait ClipKlap
 
-- 📈 **% de chance de buzz** pour chaque short : courbe YouTube des « moments les plus revus » (quand elle existe) + volume sonore (cris, réactions)
-- ✂️ **Coupé aux fins de phrases** : toute la vidéo est transcrite, chaque short commence et finit sur une phrase complète
+- 📈 **% de chance de buzz** pour chaque short (moments les plus revus sur YouTube + réactions fortes)
+- ✂️ **Coupé aux fins de phrases** : chaque short commence et finit sur une phrase complète
 - 🧍 **Cadrage automatique** :
-  - deux présentateurs à l'écran → l'un au-dessus de l'autre
-  - une personne + du contenu (webcam sur un jeu, journaliste et ses images) → la personne en haut, le contenu en bas, avec un cadre qui suit le streamer s'il bouge
-  - sinon → la vidéo entière au centre sur un fond flou
-  - et un menu pour forcer le cadrage si besoin
-- 💬 **Sous-titres animés** : trois mots à la fois, le mot prononcé s'allume en jaune
-- 🪝 **Titre d'accroche** en haut, tiré de la phrase la plus forte du passage
-- 🏷️ **Crédit du créateur** affiché en haut de chaque short
-- 📦 **Prêt à poster** : 1080 × 1920, moins de 10 Mo
-- 🔒 **100 % local** : la page s'ouvre dans ton navigateur mais tout se passe sur ton PC (adresse 127.0.0.1)
+  - deux personnes à l'écran → l'une au-dessus de l'autre
+  - un streamer ou un journaliste + ses images → la personne en haut, le contenu en bas
+  - sinon → la vidéo entière sur un fond flou
+- 💬 **Sous-titres animés** : le mot prononcé s'allume en jaune
+- 🪝 **Titre d'accroche** en haut du short
+- ✏️ **Éditeur** : corrige l'accroche et les sous-titres, change le cadrage, et le short est refait en quelques secondes
+- 📱 **Depuis ton téléphone** : sur la Wi-Fi de la maison, l'adresse à taper s'affiche sur la page du PC (protégée par une clé secrète)
+- 📦 **Prêt à poster** : format vertical 1080 × 1920, moins de 10 Mo
+- 🗓️ **Option avancée** : envoi programmé sur YouTube, un short par jour à 18 h (demande une clé Google Cloud)
 
 ---
 
@@ -50,31 +64,13 @@
 |---|---|
 | Téléchargement | yt-dlp |
 | Montage | ffmpeg |
-| Transcription | faster-whisper (sur le PC, gratuit) |
+| Sous-titres | faster-whisper (sur le PC, gratuit) |
 | Détection des visages | OpenCV + YuNet |
-| Interface | Python (bibliothèque standard) + HTML/CSS/JS |
-
-Fonctionne sur **Windows** avec Python 3.12.
+| Interface | Python 3.12 + HTML/CSS/JS |
 
 ---
-
-## 💻 Installer sur un autre PC (Windows 10 ou 11)
-
-1. Copie le dossier ClipKlap sur le PC (sans `shorts`, `sorties`, `bruts` ni `outils` : ils se recréent tout seuls).
-2. Double-clique sur **`Installer.bat`** : il installe Python 3.12 si besoin, les bibliothèques, et met un raccourci **ClipKlap** sur le Bureau.
-3. Double-clique sur le raccourci : l'appli s'ouvre. Chaque PC crée sa propre clé secrète pour l'accès par téléphone.
-
-## ✏️ Éditeur et programmation
-
-- Bouton **Modifier** sur chaque short : corriger l'accroche et les sous-titres, changer le cadrage, puis refaire le short en quelques secondes (sans nouvelle transcription)
-- Utilisable aussi **depuis le téléphone** sur la Wi-Fi de la maison (adresse protégée par une clé secrète)
-- Envoi sur YouTube **programmé** : un short par jour à 18 h, du meilleur % au moins bon
 
 ## 📌 À venir
 
-- Accroches écrites par une IA
+- Titres d'accroche écrits par une IA
 - Découpe « par sujet » avec une IA
-
----
-
-*Projet personnel — code privé.*
